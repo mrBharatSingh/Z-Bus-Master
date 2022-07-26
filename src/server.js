@@ -1,5 +1,5 @@
 const app=require("./index")
-const env=require("dotenv")
+// const env=require("dotenv")
 
 console.log("server")
 

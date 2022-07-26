@@ -13,6 +13,16 @@ router.get("",async(req,res)=>{
         console.log(error)
     }
 })
+
+router.get("/bharat",async(req,res)=>{
+    try {
+        res.status(200).send({"messege":"i am working"})
+    } catch (error) {
+        console.log(error)
+    }
+})
+
+
 router.post("",async(req,res)=>{
     try {
         var loc=req.body.cord
