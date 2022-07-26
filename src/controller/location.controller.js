@@ -16,7 +16,7 @@ router.get("",async(req,res)=>{
 router.post("",async(req,res)=>{
     try {
         var loc=req.body.cord
-        console.log(loc)
+        
         location[0]= loc[0]
         location[1]= loc[1]
         res.status(200).send({"location":location})
