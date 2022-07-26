@@ -1,0 +1,24 @@
+{
+  "name": "z-bus-master",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000Z\u0000-\u0000B\u0000u\u0000s\u0000-\u0000M\u0000a\u0000s\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrBharatSingh/Z-Bus-Master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrBharatSingh/Z-Bus-Master/issues"
+  },
+  "homepage": "https://github.com/mrBharatSingh/Z-Bus-Master#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
