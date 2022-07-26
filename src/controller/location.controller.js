@@ -8,7 +8,7 @@ console.log(location)
 
 router.get("",async(req,res)=>{
     try {
-        res.status(200).send({"messege":"i am working","location":location})
+        res.status(200).send({"location":location})
     } catch (error) {
         console.log(error)
     }
