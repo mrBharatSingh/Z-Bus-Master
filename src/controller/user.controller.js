@@ -19,10 +19,10 @@ router.post("",async(req,res)=>{
     try {
         var user=req.body
         var flag=false;
-        console.log(user)
+        // console.log(user)
         if(userData[user.phone] && userData[user.phone].password == user.password)
         {
-          console.log("password mathch")
+          console.log("password match")
           res.status(200).send({"result":"password is match"})
         }
         else{
